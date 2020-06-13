@@ -1,0 +1,41 @@
+.App { 
+  width: 100%;
+  background: url('./components/flag.jpeg') repeat-y;
+  background-position-x: right;
+  text-align: center;
+  color: #ef480c;
+}
+
+.city-list {
+    margin-left: 10%;
+    display:flex;
+    text-align: start;
+    -webkit-animation-name: example;
+    -webkit-animation-duration: 10s;
+    animation-name: flag-colors;
+    animation-duration: 10;
+    animation-iteration-count: infinite;
+}
+
+@keyframes flag-colors {
+  0%  {color: blue;}
+  75%  {color: rgb(239, 72, 12);}
+  50%  {color: green;}
+}
+
+h1{
+  color: rgb(239, 72, 12);
+}
+
+p{
+  font-weight:bold;
+  margin-bottom: 15%;
+}
+
+.App-header {
+  width:100%;
+}
+
+.App-link {
+  color: #09d3ac;
+}
